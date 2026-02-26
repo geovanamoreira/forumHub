@@ -1,5 +1,6 @@
 package br.com.alura.forumhub.domain.topico;
 
+
 import java.time.LocalDateTime;
 
 public record DadosRespostas(
@@ -8,6 +9,8 @@ public record DadosRespostas(
         String topico,
         LocalDateTime dataDePublicacao,
         Long idUsuario,
-        String solucao
+        String solucao,
+        String autor,
+        String curso
 ) {
 }
