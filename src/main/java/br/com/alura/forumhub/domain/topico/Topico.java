@@ -47,6 +47,7 @@ public class Topico {
         this.dataCriacao = LocalDateTime.now();
         this.autor = usuario;
         this.curso = curso;
+        this.ativo = true;
     }
 
     public void atualizarInformacoes(@Valid DadosAtualizacaoTopico dados) {
